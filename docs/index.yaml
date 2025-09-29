@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  alloy:
+  - apiVersion: v2
+    appVersion: v1.10.1
+    created: "2025-09-29T15:42:55.0069531+10:00"
+    dependencies:
+    - condition: crds.create
+      name: crds
+      repository: ""
+      version: 0.0.0
+    description: Grafana Alloy
+    digest: 80282c51a0dc680d127a8ee1788289e1362842d246c1da2c8c6709327d28388b
+    icon: https://raw.githubusercontent.com/grafana/alloy/main/docs/sources/assets/alloy_icon_orange.svg
+    name: alloy
+    type: application
+    urls:
+    - alloy-1.2.1.tgz
+    version: 1.2.1
+generated: "2025-09-29T15:42:55.0042917+10:00"
